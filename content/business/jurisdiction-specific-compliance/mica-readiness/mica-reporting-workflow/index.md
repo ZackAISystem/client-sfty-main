@@ -1,0 +1,8 @@
+---
+title: "SFTY | Structure MiCA Compliance Reporting — For CASP Regulatory Teams"
+data_slug: "biz_jurisdiction_specific_compliance_mica_readiness_mica_reporting_workflow"
+template: "template_8"
+domain_main: "https://sfty.ai/business/jurisdiction-specific-compliance/mica-readiness/mica-reporting-workflow"
+description: "SFTY connects jurisdiction-specific MiCA rules, provider outputs, and case workflows to help CASPs maintain traceable reporting and audit-ready evidence across multiple regulatory obligations."
+---
+

@@ -1,0 +1,6 @@
+---
+title: "SFTY | Align Digital Asset Supervision — Meeting FCA Regulatory Requirements"
+slug: "gov_regulatory_framework_alignment_fca_requirements"
+template: "template_8"
+description: "SFTY supports regulators in connecting market signals, VASP data, Travel Rule workflows and supervisory cases into a secure, audit-ready operating layer aligned with FCA standards."
+---

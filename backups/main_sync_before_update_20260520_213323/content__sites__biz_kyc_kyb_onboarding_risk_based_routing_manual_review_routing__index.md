@@ -1,0 +1,6 @@
+---
+title: "SFTY | Structure Risk-Based KYC Onboarding — Manual Review Routing for VASPs"
+slug: "biz_kyc_kyb_onboarding_risk_based_routing_manual_review_routing"
+template: "template_5"
+description: "SFTY connects KYC, KYB, sanctions, and beneficial ownership checks into rule-driven workflows that route high-risk onboarding cases to compliance teams with auditable decision trails."
+---

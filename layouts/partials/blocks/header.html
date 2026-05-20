@@ -1,0 +1,25 @@
+{{ $d := .data }}
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="/" aria-label="SFTY home">
+      <img
+        src="/img/header/sfty-logo.png"
+        alt="SFTY.AI"
+        class="site-header__logo"
+      >
+    </a>
+
+    <nav class="site-header__nav" aria-label="Main navigation">
+      {{ with $d.header_menu_item_1 }}<a href="#">{{ . }}</a>{{ end }}
+      {{ with $d.header_menu_item_2 }}<a href="#">{{ . }}</a>{{ end }}
+      {{ with $d.header_menu_item_3 }}<a href="#">{{ . }}</a>{{ end }}
+      {{ with $d.header_menu_item_4 }}<a href="#">{{ . }}</a>{{ end }}
+      {{ with $d.header_menu_item_5 }}<a href="#ask-sfty">{{ . }}</a>{{ end }}
+    </nav>
+
+    {{ with $d.header_cta }}
+      <a class="site-header__cta" href="#final">{{ . }}</a>
+    {{ end }}
+  </div>
+</header>

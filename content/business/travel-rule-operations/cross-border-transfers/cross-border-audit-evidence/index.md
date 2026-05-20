@@ -1,0 +1,8 @@
+---
+title: "SFTY | Preserve Cross-Border Transfer Evidence — Travel Rule Audit for VASPs"
+data_slug: "biz_travel_rule_operations_cross_border_transfers_cross_border_audit_evidence"
+template: "template_4"
+domain_main: "https://sfty.ai/business/travel-rule-operations/cross-border-transfers/cross-border-audit-evidence"
+description: "SFTY connects Travel Rule messages, routing data and case workflows to maintain a complete audit trail for cross-border transfers compliant with multi-jurisdictional requirements."
+---
+

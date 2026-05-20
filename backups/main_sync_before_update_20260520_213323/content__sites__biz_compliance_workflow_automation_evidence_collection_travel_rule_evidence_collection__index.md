@@ -1,0 +1,6 @@
+---
+title: "SFTY | Structured Travel Rule Evidence — Compliance Workflow for VASPs"
+slug: "biz_compliance_workflow_automation_evidence_collection_travel_rule_evidence_collection"
+template: "template_23"
+description: "SFTY helps compliance teams collect and preserve Travel Rule messages, exceptions and decisions within a unified operational workflow to support evidence review and audit readiness."
+---

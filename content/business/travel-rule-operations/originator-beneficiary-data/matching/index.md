@@ -1,0 +1,8 @@
+---
+title: "SFTY | Streamline Travel Rule Data Matching — Compliance Workflow for VASPs"
+data_slug: "biz_travel_rule_operations_originator_beneficiary_data_matching"
+template: "template_7"
+domain_main: "https://sfty.ai/business/travel-rule-operations/originator-beneficiary-data/matching"
+description: "SFTY helps compliance teams link originator and beneficiary information with customer, wallet, and transaction data to support consistent Travel Rule audits and exception handling."
+---
+

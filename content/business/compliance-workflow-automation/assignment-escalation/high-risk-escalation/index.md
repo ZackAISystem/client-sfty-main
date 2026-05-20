@@ -1,0 +1,8 @@
+---
+title: "SFTY | Automate High-Risk Case Escalation — Compliance Workflow for VASPs"
+data_slug: "biz_compliance_workflow_automation_assignment_escalation_high_risk_escalation"
+template: "template_4"
+domain_main: "https://sfty.ai/business/compliance-workflow-automation/assignment-escalation/high-risk-escalation"
+description: "SFTY helps VASP compliance teams route and escalate high-risk cases through automated workflows that preserve audit evidence and maintain clear decision logs for review."
+---
+

@@ -1,0 +1,199 @@
+{{ $site := site.Data.site }}
+
+<div class="lead-modal" id="leadModal" aria-hidden="true">
+  <div class="lead-modal__overlay" data-lead-close></div>
+
+  <div class="lead-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="leadModalTitle">
+    <button class="lead-modal__close" type="button" aria-label="Закрыть" data-lead-close>×</button>
+
+    <div class="lead-modal__inner">
+
+      <h3 class="lead-modal__title" id="leadModalTitle">
+        {{ with $site.contact_form_title_agent }}{{ . }}{{ else }}Оцените преимущества вашего инвестиционного бюджета{{ end }}
+      </h3>
+
+      <form class="lead-form" id="leadForm">
+
+        <div class="lead-form__grid" id="leadFields">
+
+          <label class="lead-field">
+            <input class="lead-input" name="name" type="text" placeholder="Ваше имя" autocomplete="name" required>
+          </label>
+
+          <label class="lead-field">
+            <input class="lead-input" name="phone" type="tel" placeholder="Ваш телефон" autocomplete="tel" required>
+          </label>
+
+          <label class="lead-field lead-field--full">
+            <input class="lead-input" name="message" type="text" placeholder="Ваше обращение">
+          </label>
+
+        </div>
+
+        <div class="lead-form__bottom">
+
+          <div class="lead-consents">
+            <label class="lead-check">
+              <input type="checkbox" name="privacy" required>
+              <span>
+                Я согласен с
+                <a href="/pdf/privacy-policy.pdf" target="_blank" rel="noopener noreferrer">
+                  Политикой обработки персональных данных
+                </a>
+              </span>
+            </label>
+
+            <label class="lead-check">
+              <input type="checkbox" name="consent" required>
+              <span>
+                Даю
+                <a href="/pdf/personal-data-consent.pdf" target="_blank" rel="noopener noreferrer">
+                  Согласие на обработку персональных данных
+                </a>
+              </span>
+            </label>
+          </div>
+
+          <button class="lead-submit" type="submit" id="leadSubmit">
+            {{ with $site.contact_form_button_text_fixed }}{{ . }}{{ else }}Начать путь{{ end }}
+          </button>
+
+        </div>
+
+        <input type="hidden" name="cta_source" id="leadCtaSource">
+        <input type="hidden" name="cta_text" id="leadCtaText">
+        <input type="hidden" name="page_url" id="leadPageUrl">
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+
+if (window.__LEAD_MODAL_INIT__) return;
+window.__LEAD_MODAL_INIT__ = true;
+
+const modal = document.getElementById("leadModal");
+if (!modal) return;
+
+const titleEl = modal.querySelector("#leadModalTitle");
+const submitBtn = modal.querySelector("#leadSubmit");
+
+const hiddenSource = modal.querySelector("#leadCtaSource");
+const hiddenText = modal.querySelector("#leadCtaText");
+const hiddenUrl = modal.querySelector("#leadPageUrl");
+
+function closeModal(){
+  modal.setAttribute("aria-hidden","true");
+  document.body.classList.remove("is-modal-open");
+}
+
+function openModal(btn){
+
+  const ctaText = (btn.getAttribute("data-cta-text") || btn.textContent || "").trim();
+  const ctaTitle = btn.getAttribute("data-modal-title");
+  const ctaColor = btn.getAttribute("data-cta-color");
+  const ctaSource = btn.getAttribute("data-source");
+
+  if (ctaTitle) titleEl.textContent = ctaTitle;
+  if (ctaText) submitBtn.textContent = ctaText;
+
+  if (ctaColor){
+    submitBtn.style.background = ctaColor;
+    submitBtn.style.color = "#fff";
+  } else {
+    submitBtn.style.background = "";
+    submitBtn.style.color = "";
+  }
+
+  hiddenSource.value = ctaSource || "";
+  hiddenText.value = ctaText || "";
+  hiddenUrl.value = window.location.href;
+
+  modal.setAttribute("aria-hidden","false");
+  document.body.classList.add("is-modal-open");
+}
+
+document.addEventListener("click",(e)=>{
+  const btn = e.target.closest(".js-open-lead");
+  if (!btn) return;
+
+  e.preventDefault();
+  openModal(btn);
+});
+
+modal.addEventListener("click",(e)=>{
+  if (e.target.closest("[data-lead-close]")){
+    closeModal();
+  }
+});
+
+document.addEventListener("keydown",(e)=>{
+  if (e.key === "Escape"){
+    closeModal();
+  }
+});
+
+const form = modal.querySelector("#leadForm");
+
+form.addEventListener("submit", async (e)=>{
+  e.preventDefault();
+
+  const submitBtn = modal.querySelector("#leadSubmit");
+  const oldText = submitBtn.textContent;
+
+  const formData = new FormData(form);
+
+  const payload = {
+    name: formData.get("name") || "",
+    phone: formData.get("phone") || "",
+    message: formData.get("message") || "",
+    cta_source: hiddenSource.value || "",
+    cta_text: hiddenText.value || "",
+    page_url: window.location.href
+  };
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = "Отправляем...";
+
+  try {
+    const response = await fetch("/api/lead", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    const result = await response.json();
+
+    if (!response.ok || !result.ok) {
+      throw new Error(result.error || "Ошибка отправки");
+    }
+
+    submitBtn.textContent = "Заявка отправлена";
+    form.reset();
+
+    setTimeout(() => {
+      closeModal();
+      submitBtn.disabled = false;
+      submitBtn.textContent = oldText;
+    }, 900);
+
+  } catch (error) {
+    console.error(error);
+
+    submitBtn.disabled = false;
+    submitBtn.textContent = "Ошибка. Попробуйте ещё раз";
+
+    setTimeout(() => {
+      submitBtn.textContent = oldText;
+    }, 1800);
+  }
+});
+
+})();
+</script>

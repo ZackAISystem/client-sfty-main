@@ -1,0 +1,8 @@
+---
+title: "SFTY | Compliance Cost Control for VASPs — Executive Risk and Audit Visibility"
+data_slug: "biz_executive_risk_control_compliance_cost_control_cost_control_for_executives"
+template: "template_14"
+domain_main: "https://sfty.ai/business/executive-risk-control/compliance-cost-control/cost-control-for-executives"
+description: "SFTY delivers a unified compliance operating view that reduces manual workload and strengthens audit readiness for digital asset executives managing risk and cost."
+---
+

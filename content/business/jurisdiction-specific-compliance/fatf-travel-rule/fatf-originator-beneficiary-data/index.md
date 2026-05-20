@@ -1,0 +1,8 @@
+---
+title: "SFTY | Control Travel Rule Originator Data — Compliance for VASPs Across Jurisdictions"
+data_slug: "biz_jurisdiction_specific_compliance_fatf_travel_rule_fatf_originator_beneficiary_data"
+template: "template_21"
+domain_main: "https://sfty.ai/business/jurisdiction-specific-compliance/fatf-travel-rule/fatf-originator-beneficiary-data"
+description: "SFTY structures jurisdiction-specific Travel Rule workflows by linking originator and beneficiary data with audit-ready case management and regulatory rule alignment for VASPs."
+---
+

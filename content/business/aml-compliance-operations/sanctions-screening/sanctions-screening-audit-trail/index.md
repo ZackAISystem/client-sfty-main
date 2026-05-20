@@ -1,0 +1,8 @@
+---
+title: "SFTY | Preserve Sanctions Screening Evidence — Audit Trail for VASP Compliance"
+data_slug: "biz_aml_compliance_operations_sanctions_screening_sanctions_screening_audit_trail"
+template: "template_5"
+domain_main: "https://sfty.ai/business/aml-compliance-operations/sanctions-screening/sanctions-screening-audit-trail"
+description: "SFTY supports VASP compliance teams by consolidating sanctions screening alerts into auditable cases with preserved evidence and actionable workflow for reliable review and reporting."
+---
+

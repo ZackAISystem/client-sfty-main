@@ -1,0 +1,6 @@
+---
+title: "SFTY | Control Compliance Escalation Workflows — Reduce Manual Handoffs for VASPs"
+slug: "biz_provider_fragmentation_manual_handoffs_escalation_handoffs"
+template: "template_5"
+description: "SFTY connects fragmented provider outputs into structured escalation routing with audit logs, helping compliance teams manage case ownership and reduce operational risk across onboarding and reviews."
+---

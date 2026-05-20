@@ -1,0 +1,6 @@
+---
+title: "SFTY | Structured Onboarding for UBO Review — Audit-Ready Compliance for VASPs"
+slug: "biz_kyc_kyb_onboarding_ubo_review_ubo_audit_trail"
+template: "template_5"
+description: "SFTY connects KYC and KYB providers into a unified workflow that preserves audit evidence and documents risk-based UBO decisions across digital asset onboarding."
+---

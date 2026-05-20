@@ -1,0 +1,515 @@
+==> build-batch: batch-01
+==> Using CSV: /Users/zack/zack-ai/zack-factory/finstar-ai-system/batches/batch-01.csv
+==> Building slug: investirovatchernyy
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 63 ms
+==> Building slug: investirovatchtoby
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 40 ms
+==> Building slug: investirovatchtoby1
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 40 ms
+==> Building slug: investirovatchtoby2
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 38 ms
+==> Building slug: investirovatdengi
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 43 ms
+==> Building slug: investirovatfond
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 46 ms
+==> Building slug: investirovatfond1
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 47 ms
+==> Building slug: investirovatinnovatsii
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 39 ms
+==> Building slug: investirovatkolebaniyakh
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 43 ms
+==> Building slug: investirovatkontsa
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 45 ms
+==> Building slug: investirovatkopit
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 48 ms
+==> Building slug: investirovatmodeli
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 43 ms
+==> Building slug: investirovatnedvizhimost1
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 47 ms
+==> Building slug: investirovatnedvizhimost19
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 44 ms
+==> Building slug: investirovatnestabilnosti
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 47 ms
+==> Building slug: investirovatpensioneru
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 45 ms
+==> Building slug: investirovatpoluchennoe
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 43 ms
+==> Building slug: investirovatposle
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 44 ms
+==> Building slug: investirovatposle1
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 42 ms
+==> Building slug: investirovatposle2
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 41 ms
+==> Building slug: investirovatproverennyy
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 69 ms
+==> Building slug: investirovatroditelyam
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 45 ms
+==> Building slug: investirovatrossii
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 40 ms
+==> Building slug: investirovatrossiyskiy
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 50 ms
+==> Building slug: investirovatrossiyskuyu
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 43 ms
+==> Building slug: investirovatvladeltsu
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 86 ms
+==> Building slug: investirovatvysokoy
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 55 ms
+==> Building slug: investirovatyuvelirnye
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 54 ms
+==> Building slug: investirovatzpif
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 48 ms
+==> Building slug: investirovatzpif1
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 40 ms
+==> Building slug: investirovatzpif2
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 48 ms
+==> Building slug: investirovatzpif3
+Start building sites … 
+hugo v0.154.5+extended+withdeploy darwin/arm64 BuildDate=2026-01-11T20:53:23Z VendorInfo=Homebrew
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │  10 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 102 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 41 ms
+==> Building slug: investirovatzpif4

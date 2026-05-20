@@ -1,0 +1,6 @@
+---
+title: "SFTY | Connect Transaction Risk Profiles — Unified Compliance for VASPs"
+slug: "biz_provider_fragmentation_fragmented_risk_profile_fragmented_transaction_risk_profile"
+template: "template_13"
+description: "SFTY links fragmented transaction and wallet risk data with customer and counterparty context to provide VASP operations a structured, auditable compliance workflow."
+---

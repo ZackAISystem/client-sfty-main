@@ -1,0 +1,3 @@
+baseURL = "http://localhost:1327/"
+languageCode = "ru"
+title = "SFTY AI"

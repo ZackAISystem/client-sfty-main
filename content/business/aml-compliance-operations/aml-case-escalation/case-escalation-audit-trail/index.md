@@ -1,0 +1,8 @@
+---
+title: "SFTY | Preserve Audit Evidence for AML Cases — Compliance Control Layer for VASPs"
+data_slug: "biz_aml_compliance_operations_aml_case_escalation_case_escalation_audit_trail"
+template: "template_13"
+domain_main: "https://sfty.ai/business/aml-compliance-operations/aml-case-escalation/case-escalation-audit-trail"
+description: "SFTY connects provider outputs into a structured compliance workflow that preserves audit trails and links escalation decisions with case evidence for digital asset AML review."
+---
+

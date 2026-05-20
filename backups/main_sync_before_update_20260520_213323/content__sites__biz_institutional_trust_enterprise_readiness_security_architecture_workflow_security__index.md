@@ -1,0 +1,6 @@
+---
+title: "SFTY | Secure Compliance Workflows — Enterprise Trust for VASPs"
+slug: "biz_institutional_trust_enterprise_readiness_security_architecture_workflow_security"
+template: "template_11"
+description: "SFTY connects compliance data and actions into a role-secured, auditable workflow designed to support institutional readiness, governance, and encrypted evidence for digital asset businesses."
+---
