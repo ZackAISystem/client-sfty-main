@@ -4,9 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>{{ if .Title }}{{ .Title }}{{ else }}{{ default "SFTY AI" site.Title }}{{ end }}</title>
-
-  {{ $metaDescription := .Description | default .Params.description | default "Supervisory and compliance control layer for digital asset markets, businesses and regulated institutions." }}
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ default "SFTY AI" site.Title }}</title>
 
   <!-- Montserrat font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +21,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SFTY AI">
   <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}SFTY AI{{ end }}">
-  <meta property="og:description" content="{{ $metaDescription }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Supervisory and compliance control layer for digital asset markets, businesses and regulated institutions.{{ end }}">
   <meta property="og:image" content="{{ "og-image.jpg" | absURL }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -32,12 +30,14 @@
   <!-- Twitter / X preview -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ if .Title }}{{ .Title }}{{ else }}SFTY AI{{ end }}">
-  <meta name="twitter:description" content="{{ $metaDescription }}">
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Supervisory and compliance control layer for digital asset markets, businesses and regulated institutions.{{ end }}">
   <meta name="twitter:image" content="{{ "og-image.jpg" | absURL }}">
 </head>
 
 <body>
   {{ block "main" . }}{{ end }}
+
+  {{ partial "lead-modal.html" . }}
 
   <!-- Header scroll state -->
   <script>
