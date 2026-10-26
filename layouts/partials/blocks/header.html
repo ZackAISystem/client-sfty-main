@@ -2,7 +2,12 @@
 
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="site-header__brand" href="/" aria-label="SFTY home">
+
+    <a
+      class="site-header__brand"
+      href="/"
+      aria-label="SFTY home"
+    >
       <img
         src="/img/header/sfty-logo.png"
         alt="SFTY.AI"
@@ -10,26 +15,49 @@
       >
     </a>
 
-    <nav class="site-header__nav" aria-label="Main navigation">
-      {{ with $d.header_menu_item_1 }}
-        <a href="#">{{ . }}</a>
+    <nav
+      class="site-header__nav"
+      aria-label="Main navigation"
+    >
+
+      {{ range $i := seq 1 5 }}
+
+        {{ with index $d (printf "header_menu_item_%d" $i) }}
+
+          {{ $label := . }}
+          {{ $key := lower $label }}
+          {{ $href := "/" }}
+
+          {{ if eq $key "government" }}
+
+            {{ $href = "/government/trust-core-authority/platform-explanation/" }}
+
+          {{ else if eq $key "business" }}
+
+            {{ $href = "/business/provider-fragmentation/unified-control-layer/sfty-control-layer/" }}
+
+          {{ else if eq $key "platform" }}
+
+            {{ $href = "/#solution" }}
+
+          {{ else if eq $key "about" }}
+
+            {{ $href = "/#why-sfty" }}
+
+          {{ else if eq $key "ask sfty" }}
+
+            {{ $href = "/#ask-sfty" }}
+
+          {{ end }}
+
+          <a href="{{ $href }}">
+            {{ $label }}
+          </a>
+
+        {{ end }}
+
       {{ end }}
 
-      {{ with $d.header_menu_item_2 }}
-        <a href="#">{{ . }}</a>
-      {{ end }}
-
-      {{ with $d.header_menu_item_3 }}
-        <a href="#">{{ . }}</a>
-      {{ end }}
-
-      {{ with $d.header_menu_item_4 }}
-        <a href="#">{{ . }}</a>
-      {{ end }}
-
-      {{ with $d.header_menu_item_5 }}
-        <a href="#ask-sfty">{{ . }}</a>
-      {{ end }}
     </nav>
 
     {{ with $d.header_cta }}
@@ -43,5 +71,6 @@
         {{ . }}
       </a>
     {{ end }}
+
   </div>
 </header>

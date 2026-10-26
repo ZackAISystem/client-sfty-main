@@ -6065,3 +6065,19 @@ body.is-sfty-lead-open{
     transform: none;
   }
 }
+
+/* ==========================================
+   SFTY HEADER — INTERNAL NAVIGATION
+   ========================================== */
+
+#solution,
+#why-sfty,
+#ask-sfty {
+  scroll-margin-top: 96px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
